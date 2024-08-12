@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de tarefas</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Playwrite+IT+Trad:wght@100..400&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Parisienne&family=Playwrite+IT+Trad:wght@100..400&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Agenda de tarefas</h1>
+        <button type="submit">Nova tarefa</button>
+    </header>
+    <div class="container">
+        <div id="novaTarefa">
+            <label for="#">Indique qual tarefa deseja inserir:</label>
+            <form>
+                <input id="campoTarefa" type="text" placeholder="Escreva sua tarefa" required>
+                <button id="adicionarTarefa" type="submit">Adicionar tarefa +</button>
+                <button id="cancelar" type="reset">Cancelar</button>
+            </form>
+        </div>
+            <h2 class="tar">Tarefas</h2>
+            <ul id="listaDeAtividades">
+            </ul>
+        <footer>
+            <h5>&copy; - MormaihoDev.</h5>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

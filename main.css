@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgb(72, 72, 221);
+    color: rgb(0, 255, 34);
+    border-bottom: 20px solid rgb(51, 51, 150);
+    justify-content: center;
+    padding: 16px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header button {
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 15px 15px 8px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-bottom: 2px solid rgb(0, 255, 34);
+    border-right: 2px solid rgb(0, 255, 34);
+    border-radius: 20px;
+    background-color: rgb(72, 72, 221);
+    height: fit-content;
+}
+
+header button:hover {
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+}
+
+form, label, ul li, footer, .tar {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: -15px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+}
+
+form #adicionarTarefa {
+    padding: 0 5px 18px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+form #cancelar {
+    position: absolute;
+    margin: 26px 0 0 255px;
+    padding: 1px 31px;
+    cursor: pointer;
+    background-color: rgb(255, 178, 178);
+    border: none;
+    border-top: 1px solid;
+}
+
+footer h5 {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.tar {
+    margin-top: 50px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form #campoTarefa {
+    height: 45px;
+    width: 250px;
+}
+
+#novaTarefa {
+    display: none;
+}
+
+ul li {
+    cursor: pointer;
+    font-family: "Parisienne", cursive;
+    font-weight: 600px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: left;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: red;
+}
+
+.line-through span {
+    text-decoration: line-through;
+}
+
+ul {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+#novaTarefa label {
+    margin: 20px 0 10px 0;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
